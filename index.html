@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Glass Gallery | GUPIO Hackathon</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="background">
+    <canvas id="particles"></canvas>
+  </div>
+
+  <header>
+    <h1>✨ My Glass Gallery</h1>
+    <button id="theme-toggle">🌙 Dark Mode</button>
+  </header>
+
+  <main>
+    <section class="gallery">
+      <div class="img-card">
+        <img src="https://picsum.photos/id/1015/600/400" alt="Mountain View">
+        <div class="overlay">Mountain View</div>
+      </div>
+      <div class="img-card">
+        <img src="https://picsum.photos/id/1025/600/400" alt="Dog Portrait">
+        <div class="overlay">Dog Portrait</div>
+      </div>
+      <div class="img-card">
+        <img src="https://picsum.photos/id/1035/600/400" alt="Forest Path">
+        <div class="overlay">Forest Path</div>
+      </div>
+      <div class="img-card">
+        <img src="https://picsum.photos/id/1045/600/400" alt="Bridge Over Water">
+        <div class="overlay">Bridge Over Water</div>
+      </div>
+      <div class="img-card">
+        <img src="https://picsum.photos/id/1055/600/400" alt="Sunset Sky">
+        <div class="overlay">Sunset Sky</div>
+      </div>
+      <div class="img-card">
+        <img src="https://picsum.photos/id/1065/600/400" alt="Snowy Peak">
+        <div class="overlay">Snowy Peak</div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Modal -->
+  <div id="modal" class="modal">
+    <span class="close">&times;</span>
+    <img id="modal-img" class="modal-content" alt="Expanded View">
+    <div id="caption"></div>
+  </div>
+
+  <footer>
+    <p>© 2025 | Built with 💎 HTML, CSS & JavaScript | GUPIO Hackathon</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
